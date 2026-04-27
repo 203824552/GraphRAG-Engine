@@ -14,7 +14,7 @@ GraphRAG Studio is a fully localized, out-of-the-box desktop application for Gra
 - 🔒 **100% Data Privacy**: Fully compatible with local LLMs (e.g., vLLM/Ollama via OpenAI API format). Dense vector indexing is performed locally. Your data never leaves your machine.
 - 🧩 **Anti-Hallucination Retrieval**: Implements a 4-phase retrieval pipeline. Features Neff topology entropy checking and automatic `Text Fallback` dense retrieval when graph evidence is insufficient.
 - 🛡️ **Robust Data Management**: 
-  - **MD5 Hash Deduplication**: Accurately blocks redundant document chunks to save computing resources.
+  - **Sentence-Level MD5 Deduplication**: Accurately blocks redundant individual sentences to save computing resources and prevent context pollution.
   - Automatic timestamped source archiving for 100% data traceability.
 
 ---
@@ -75,7 +75,7 @@ Navigate to the **[📚 KG Construction]** tab to ingest your corpus and build t
 - **2. Smart Build Modes (The Core Engine):**
   - **Fresh Build (`全新构建`)**: Wipes the selected project's existing graph and vector indexes, allowing you to start with a clean slate. *(Note: The original `.txt` archives in the `data_input/` folder remain safely untouched).*
   - **Incremental Merging (`增量合并`)**: Safely appends new knowledge to an existing project. 
-    - 🛡️ **Built-in Hash Deduplication**: When uploading new documents, the system employs an **MD5 Hash Fingerprinting** mechanism at the text-chunk level. It silently intercepts and ignores any redundant text blocks you may have accidentally re-uploaded, saving massive LLM API costs and keeping the vector database pristine.
+    - 🛡️ **Built-in Sentence-Level Deduplication**: When uploading new documents, the system employs an **MD5 Hash Fingerprinting** mechanism at the atomic sentence level. It silently intercepts and ignores any redundant individual sentences you may have accidentally re-uploaded, saving massive LLM API costs and keeping the vector database pristine.
 
 - **3. Automated Pipeline & Visualization:**
   Upload `.txt` files or paste text directly, then click **[🚀 Start Building]**. The engine will autonomously handle text chunking, graph extraction, and Dense Vector indexing.
