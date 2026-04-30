@@ -41,7 +41,8 @@ Extract the downloaded ZIP file to a directory containing **only English charact
 
 ### Step 2: System Configuration
 
-<img width="3018" height="954" alt="image" src="https://github.com/user-attachments/assets/fd98e726-27d5-48ba-b95f-40f1cfdd024c" />
+<img width="2910" height="846" alt="4a906fc7c28e9f1ae1b316c3d41b6ae3" src="https://github.com/user-attachments/assets/97f88902-f28f-43b4-8931-ddb7fabe41a2" />
+
 
 
 Before building your knowledge graph, navigate to the **[⚙️ Configuration]** tab to set up your backend engine. The interface allows you to configure two main components:
@@ -64,7 +65,8 @@ Once you click **[💾 Save]**, all parameters are updated in memory instantly. 
 
 ### Step 3: Knowledge Base Construction
 
-<img width="2970" height="1602" alt="image" src="https://github.com/user-attachments/assets/39e7a3b2-1f82-4092-b1a1-8ec89bc83f8e" />
+<img width="2919" height="1539" alt="401bdccf15793d5f77025525821b02a5" src="https://github.com/user-attachments/assets/7e95027a-0f15-4c28-80c1-6602965b31fd" />
+
 
 
 Navigate to the **[📚 KG Construction]** tab to ingest your corpus and build the multi-modal knowledge index. The interface provides a highly robust data ingestion pipeline:
@@ -73,8 +75,8 @@ Navigate to the **[📚 KG Construction]** tab to ingest your corpus and build t
   You can either type a new name to create a fresh project or select an existing project from the dropdown menu to manage your historical knowledge bases.
 
 - **2. Smart Build Modes (The Core Engine):**
-  - **Fresh Build (`全新构建`)**: Wipes the selected project's existing graph and vector indexes, allowing you to start with a clean slate. *(Note: The original `.txt` archives in the `data_input/` folder remain safely untouched).*
-  - **Incremental Merging (`增量合并`)**: Safely appends new knowledge to an existing project. 
+  - **Fresh Build**: Wipes the selected project's existing graph and vector indexes, allowing you to start with a clean slate. *(Note: The original `.txt` archives in the `data_input/` folder remain safely untouched).*
+  - **Incremental Merging**: Safely appends new knowledge to an existing project. 
     - 🛡️ **Built-in Sentence-Level Deduplication**: When uploading new documents, the system employs an **MD5 Hash Fingerprinting** mechanism at the atomic sentence level. It silently intercepts and ignores any redundant individual sentences you may have accidentally re-uploaded, saving massive LLM API costs and keeping the vector database pristine.
 
 - **3. Automated Pipeline & Visualization:**
@@ -86,7 +88,8 @@ Navigate to the **[📚 KG Construction]** tab to ingest your corpus and build t
 
 Once your knowledge base is built, navigate to the **[💬 Multi-hop QA]** tab. This is where the core engine demonstrates its glass-box reasoning capabilities.
 
-<img width="2886" height="1863" alt="image" src="https://github.com/user-attachments/assets/e3af39e0-5dc0-4ee8-a179-2cf8b28789f8" />
+<img width="2946" height="1887" alt="ab78d9f70970ed0d890003345891c1f0" src="https://github.com/user-attachments/assets/f43bec92-3253-47f1-8b3b-0e8aa64eee8d" />
+
 
 
 - **1. Query & Transparent Execution:**
@@ -101,7 +104,8 @@ Once your knowledge base is built, navigate to the **[💬 Multi-hop QA]** tab. 
 **🛠️ The Glass-Box Analysis Dashboard:**
 Scroll down to view the real-time synchronization dashboard. This exposes the entire RAG pipeline's inner workings, making it highly suitable for academic analysis and debugging:
 
-<img width="2841" height="1104" alt="image" src="https://github.com/user-attachments/assets/f1acea44-5bdc-4aad-abda-39c49630d444" />
+<img width="2877" height="1431" alt="2fb63134171a22c1b3230afc3f599394" src="https://github.com/user-attachments/assets/f936e1a0-67a8-4a40-998b-8c112827fd28" />
+
 
 
 - **Phase 1 (Logical Skeleton Decomposition):** Deconstructs the complex user query into atomic triples (Head -> Relation -> Tail).
