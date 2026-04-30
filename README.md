@@ -21,9 +21,10 @@ GraphRAG Studio is a fully localized, out-of-the-box desktop application for Gra
 
 ## 📥 Download
 
-Due to the inclusion of complete AI dependencies and offline model weights, the package size is approximately **2.62 GB**. Please download the latest release via the official Hugging Face global link below:
+Due to the inclusion of complete AI dependencies and offline model weights, the package size is approximately **2.44 GB**. Please download the latest release via the official Hugging Face global link below:
 
-- **[📦 Download GraphRAG Studio v1.0 (Windows)](https://huggingface.co/203824552xjc/GraphRAG-Studio-Release/resolve/main/GraphRAG_Studio_v1.0_Windows.zip?download=true)**
+- **[📦 Download GraphRAG Studio v1.1 (Windows)](https://huggingface.co/203824552xjc/GraphRAG-Studio-Release/resolve/main/GraphRAG_Studio_v1.1_Windows.zip?download=true)**
+
 
 *(Note: This is a direct download link hosted on Hugging Face. If you experience slow download speeds in certain regions, using a download manager is recommended.)*
 
