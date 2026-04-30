@@ -2,7 +2,7 @@
 
 ![Windows](https://img.shields.io/badge/Platform-Windows-blue?logo=windows)
 ![Local](https://img.shields.io/badge/Deployment-100%25_Local-brightgreen)
-![Status](https://img.shields.io/badge/Status-Stable_v1.0-orange)
+![Status](https://img.shields.io/badge/Status-Stable_v1.1-orange)
 
 GraphRAG Studio is a fully localized, out-of-the-box desktop application for GraphRAG and multi-hop Question Answering (QA). No Python environment configuration is required. Just extract and run.
 
